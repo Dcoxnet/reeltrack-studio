@@ -1,0 +1,2 @@
+# Paste public Instagram Reel URLs, one per line.
+# Your real list is saved locally as reels.txt and ignored by Git.

@@ -1,0 +1,65 @@
+# Dependencies and generated builds
+**/node_modules/
+/.pnpm-store/
+**/.next/
+**/out/
+**/dist/
+**/build/
+**/.turbo/
+**/.vercel/
+
+# Python environments and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/*.py[cod]
+**/.coverage
+**/htmlcov/
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/.secrets/
+**/secrets/
+**/*credentials*.json
+**/*secret*.json
+**/token.json
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/id_rsa*
+**/id_ed25519*
+
+# Browser profiles and cookies
+**/cookies*.txt
+**/cookies.sqlite*
+**/Cookies
+**/Login Data*
+**/Local State
+**/browser-profile/
+**/browser-profiles/
+
+# ReelTrack local data
+backend/engine/reels.txt
+backend/engine/results.csv
+backend/engine/songs.csv
+backend/engine/song_names.txt
+backend/engine/full_mp3/
+backend/engine/cache/
+backend/engine/*.tmp
+
+# Local media and logs
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.log
+**/.DS_Store
+**/Thumbs.db
+**/.idea/
+frontend/.tsbuildinfo

@@ -1,0 +1,14 @@
+{
+  "name": "reeltrack-studio",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "setup:python": "node scripts/setup.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build": "pnpm --filter reeltrack-studio-web build"
+  }
+}
